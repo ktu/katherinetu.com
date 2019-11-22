@@ -1,0 +1,93 @@
+@import url('//fonts.googleapis.com/css?family=Roboto:400&display=swap');
+
+	@font-face {
+    		font-family: 'cmu_serifroman';
+   	 	src: url('fonts/cmunrm/cmunrm-webfont.eot');
+    		src: url('fonts/cmunrm/cmunrm-webfont.eot?#iefix') format('embedded-opentype'),
+         	/*url('fonts/cmunrm/cmunrm-webfont.woff2') format('woff2'),
+         	*/url('fonts/cmunrm/cmunrm-webfont.woff') format('woff'),
+         	url('fonts/cmunrm/cmunrm-webfont.ttf') format('truetype'),
+         	url('fonts/cmunrm/cmunrm-webfont.svg#cmu_serifroman') format('svg');
+    		font-weight: bold;
+   		font-style: oblique;
+	}
+
+	html{
+		
+	}
+	
+	body { 
+		line-height: normal;
+	}
+	
+	#wrapper{
+		width: 100%;
+		height: auto;
+	}
+	
+	header{
+		margin: 0px auto;
+		margin-top: 80px;
+		width: 900px;
+		text-align: center;
+	}
+	
+	nav{
+		margin: 0px auto;
+		width: 700px;
+		height: 40px;
+		text-align: center;
+	}	
+	nav li{
+		font-family: 'Roboto';
+		float:left;
+		color:#06F;
+		width: 100%;
+		text-transform:uppercase;
+	}
+			
+	nav a:hover{color:#06F;}
+	nav a:visited{color:#06F;}
+	nav a:active{color:#06F;}
+			
+	a{ 
+		text-decoration:none; 	 
+	}
+	
+	h2{
+		font-family: 'Roboto';
+		font-size: 150%;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color:#6f10cf; 
+		margin: 0px auto;
+		width: 200px;
+		text-transform:uppercase;
+	}
+	h2 a{color:#6f10cf;}
+		
+
+	#content{
+		margin: 60px auto;
+		width: 900px;
+		
+	}
+	
+	#content p{
+		font-family: 'cmu_serifroman';
+		color:#5E5E5E;
+		margin-top:12pt;
+	}
+
+	#content a{
+		text-decoration:underline;
+		color:#5E5E5E;
+		border-style:solid;
+		border-color:#00ffff;
+	}
+
+	#content h3{
+		color:#5E5E5E;
+		font-size:14pt;
+	}
+
